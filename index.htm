@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Table Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Student Table Example</h2>
+
+  <div class="form-container">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="age" placeholder="Enter Age">
+    <button class="btn" onclick="addRow()">Add Student</button>
+  </div>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Sr. No</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Rows will be added dynamically -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
